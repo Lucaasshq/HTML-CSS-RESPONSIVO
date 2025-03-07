@@ -1,0 +1,31 @@
+body {
+    font-size: 32px;
+}
+
+.nome-empresa {
+    background-color: pink;
+    /* display: inline; por padrão é display de um link e inline */
+    /* ele ocupa o espaço do conteúdo e não do bloco */
+}
+
+.segmento-empresa {
+    background-color: red;
+}
+
+.curso-html {
+    background-color: #00dd00;
+    /* display: block; por padrao o display de <P> é block; */
+    /* ele ocupa o espaço do bloco inteiro */
+}
+
+.curso-css {
+    background-color: #fdff11;
+}
+
+.curso-java {
+    background-color: #00dddd;
+}
+
+.curso-bootstrap {
+    background-color: #ee00da;
+}
