@@ -1,0 +1,12 @@
+p {
+    font-size: 30px;
+    width: 400px;
+    border-color: red ;
+    border-width: 5px;
+    border-style: solid;
+    background-color: yellow;
+
+    padding: 20px;
+
+    
+}
