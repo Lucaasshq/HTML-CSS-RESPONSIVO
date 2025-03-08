@@ -24,8 +24,28 @@ body {
 
 .curso-java {
     background-color: #00dddd;
+
 }
 
 .curso-bootstrap {
     background-color: #ee00da;
+}
+
+.nome-empresa, .segmento-empresa {
+    display: block;
+    height: 100px;
+    width: 300px;
+    
+}
+
+.curso-html, .curso-css {
+    display: inline;
+    /* Display inline não permitei a configuração de altura e largura */
+    
+}
+
+.curso-java, .curso-bootstrap {
+    display: inline-block;
+    height: 100px;
+    width: 300px;
 }
