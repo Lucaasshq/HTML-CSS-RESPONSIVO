@@ -18,22 +18,27 @@ header img {
 }
 
 .container {
-  width: 1400px;
+  width: 100%;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 
 #planos-tipos {
-  padding: 80px 0;
+  padding: 80px;
 }
 
 .plano {
   border: 1px solid #ccc;
-  width: 396px;
   padding: 10px;
-  float: left;
-  margin: 30px;
+}
+
+@media (min-width: 800px) {
+  .plano {
+    width: 28%;
+    float: left;
+    margin-right: 5%;
+  }
 }
 
 #planos-tipos::after {
