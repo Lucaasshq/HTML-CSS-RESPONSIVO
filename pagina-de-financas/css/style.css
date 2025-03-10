@@ -17,28 +17,13 @@ header img {
   margin-top: 12px;
 }
 
-.container {
-  width: 100%;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
-#planos-tipos {
-  padding: 80px;
-}
+
 
 .plano {
   border: 1px solid #ccc;
   padding: 10px;
-}
-
-@media (min-width: 800px) {
-  .plano {
-    width: 28%;
-    float: left;
-    margin-right: 5%;
-  }
+  margin-top: 100px;
 }
 
 #planos-tipos::after {
