@@ -1,4 +1,4 @@
-.titulo-plano {
+.plano__cabecalho {
   background-color: #ff6e27;
   color: white;
   text-align: center;
@@ -10,19 +10,19 @@
   font-size: 28px;
 }
 
-.preco {
+.plano__preco {
   text-align: center;
   font-size: 28px;
   margin: 20px 0;
 }
 
-ul {
+.plano__caracteristicas {
   list-style: none;
   padding: 0;
   margin: 20px 0;
 }
 
-ul li {
+.plano__caracteristicas li {
   text-align: center;
 }
 
@@ -48,6 +48,6 @@ ul li {
   color: white;
 }
 
-.botao-footer {
+.plano__rodape {
   text-align: center;
 }
