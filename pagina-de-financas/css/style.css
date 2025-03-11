@@ -17,9 +17,6 @@ header img {
   margin-top: 12px;
 }
 
-
-
-
 .plano {
   border: 1px solid #ccc;
   padding: 10px;
@@ -27,7 +24,7 @@ header img {
 }
 
 #planos-tipos::after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
 }
@@ -67,7 +64,7 @@ ul li {
 .botao {
   display: inline-block;
   background-color: #127d00;
-  text-decoration: none;
+
   color: white;
   padding: 12px 16px;
   transition: 0.3s;
@@ -75,7 +72,13 @@ ul li {
 }
 
 .botao:hover {
+  text-decoration: none;
   border-radius: 3px;
   transform: scale(1.1);
   background-color: #076461;
+  color: white;
+}
+
+.botao-footer {
+  text-align: center;
 }
