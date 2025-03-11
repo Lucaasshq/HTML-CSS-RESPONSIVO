@@ -1,0 +1,53 @@
+.titulo-plano {
+  background-color: #ff6e27;
+  color: white;
+  text-align: center;
+  line-height: 2.5;
+  margin: 0;
+  margin: -10px;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+.preco {
+  text-align: center;
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+ul li {
+  text-align: center;
+}
+
+#assinar {
+  text-align: center;
+}
+
+.botao {
+  display: inline-block;
+  background-color: #127d00;
+
+  color: white;
+  padding: 12px 16px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.botao:hover {
+  text-decoration: none;
+  border-radius: 3px;
+  transform: scale(1.1);
+  background-color: #076461;
+  color: white;
+}
+
+.botao-footer {
+  text-align: center;
+}
