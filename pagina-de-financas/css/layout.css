@@ -21,3 +21,14 @@
 }
 
 
+.layout-rodape {
+  padding: 40px 0;
+  background-color: #484848;
+
+  color: white;
+  text-align: center;
+}
+
+.layout-planos {
+  padding-bottom: 80px;
+}
