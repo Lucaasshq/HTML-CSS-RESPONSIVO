@@ -9,7 +9,6 @@ PLANO
   font-size: 0.875rem;
 }
 
-
 .plano__cabecalho {
   background-color: #ff6e27;
   color: white;
@@ -64,3 +63,86 @@ PLANO
 .plano__rodape {
   text-align: center;
 }
+
+.botao--principal {
+  background-color: #ff6e27;
+  color: white;
+}
+
+.botao--principal:hover {
+  text-decoration: none;
+  
+}
+
+/* --------------------------- *\
+  CHAMADA
+\* --------------------------- */
+
+.chamada {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.chamada__titulo {
+  margin: 0;
+  color: #fff;
+  font-size: 3.375em;
+  line-height: 0.9;
+  text-shadow: 2px 1px #313131;
+}
+
+.chamada__subtitulo {
+  margin: 60px 0;
+  color: #fff;
+  font-size: 1em;
+}
+
+.chamada__acao {
+  font-size: 1em;
+}
+
+@media (min-width: 992px) {
+  .chamada {
+    padding-left: 10%;
+    padding-right: 10%;
+
+    font-size: 2.2em;
+  }
+}
+
+/* --------------------------- *\
+  DEPOIMENTO
+\* --------------------------- */
+
+@media (min-width: 992px) {
+  .depoimento {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 2.8rem;
+  }
+}
+
+.depoimento {
+  font-size: 2.2rem;
+}
+
+.depoimento__citacao {
+  margin: 0;
+  padding: 0 60px;
+  text-align: center;
+  font: 1em;
+}
+
+.depoimento__autor {
+  margin-top: 40px;
+
+  text-align: center;
+  font-size: 0.8181em;
+}
+
+
+.depoimento__imagem {
+  border-radius: 50%;
+}
+
+
