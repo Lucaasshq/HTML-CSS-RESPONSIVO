@@ -12,7 +12,28 @@
   <body>
     <header class="layout-cabecalho layout-cabecalho--home">
       <div class="container">
-        <img src="../pagina-de-financas/assets/logo.png" width="100" height="35" alt="My Pilas" />
+        <nav class="navegacao">
+          <img src="../pagina-de-financas/assets/logo.png" width="100" height="35" alt="My Pilas" />
+
+          <div class="navegacao__menu">
+            <button class="botao-chaveador js-botao-hook"></button>
+
+            <ul class="menu js-menu menu--ativo">
+              <li class="menu__item">
+                <a href="#">Como funciona</a>
+              </li>
+              <li class="menu__item">
+                <a href="#planos-tipos">Planos e preços</a>
+              </li>
+              <li class="menu__item">
+                <a href="#">Contato</a>
+              </li>
+              <li class="menu__item menu__item--botao">
+                <a class="plano--botao botao--login" href="#">Login</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </header>
 
@@ -67,7 +88,7 @@
           </div>
 
           <div class="col-md-4">
-            <div class="plano">
+            <div class="plano plano--mais-popular">
               <h2 class="plano__cabecalho">Micro</h2>
               <div class="plano__preco">R$89/mês</div>
               <ul class="plano__caracteristicas">
@@ -104,5 +125,7 @@
         <p class="diretos-ath">&copy; MyPilas. Todos os direitos reservados</p>
       </div>
     </footer>
+
+    <script src="../pagina-de-financas/js/app.js"></script>
   </body>
 </html>
